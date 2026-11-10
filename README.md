@@ -23,3 +23,7 @@ En este nuevo paso hemos creado el componente Square, para separar cada una de l
 ## Paso 4
 
 En el paso 4 hemos añadido el flujo de eventos, en el que al hacer click en square se llama a buttonClick, que llama a la funcion appClick de App.jsx que modifica las props que le pasa al tablero y por tanto a la casilla, cambiando el valor de esta. También se cambia el header para mostrar el nuevo turno.
+
+## Paso 5
+
+Hemos añadido un botón de rest para el juego. Además hemos que una casilla clickada no pueda volver a serlo y que se vea este cambio con el cursor
