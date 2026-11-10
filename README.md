@@ -16,3 +16,6 @@ En el paso 2 hemos creado los componentes Header.jsx que indica de qué jugador 
 
 Para ello hemos recorrido nuestro array de arrays values con funciones map, pintando cada casilla como un botón.
 
+## Paso 3
+
+En este nuevo paso hemos creado el componente Square, para separar cada una de las casillas del tablero, además hemos eliminado ineficiencias en los maps del paso anterior añadiendo keys específicas a cada elemento de las funciones map.
