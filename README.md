@@ -19,3 +19,7 @@ Para ello hemos recorrido nuestro array de arrays values con funciones map, pint
 ## Paso 3
 
 En este nuevo paso hemos creado el componente Square, para separar cada una de las casillas del tablero, además hemos eliminado ineficiencias en los maps del paso anterior añadiendo keys específicas a cada elemento de las funciones map.
+
+## Paso 4
+
+En el paso 4 hemos añadido el flujo de eventos, en el que al hacer click en square se llama a buttonClick, que llama a la funcion appClick de App.jsx que modifica las props que le pasa al tablero y por tanto a la casilla, cambiando el valor de esta. También se cambia el header para mostrar el nuevo turno.
