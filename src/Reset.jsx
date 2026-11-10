@@ -1,3 +1,5 @@
+import Button from 'react-bootstrap/Button';
+
 export default function Reset(props){
-    return <button onClick={props.resetClick}>Reset Game</button>
+    return <Button variant='danger' onClick={props.resetClick}>Reset Game</Button>
 }

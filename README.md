@@ -32,4 +32,6 @@ Hemos añadido un botón de rest para el juego. Además hemos que una casilla cl
 
 En el paso 6 hemos creado la función fetch que trae los datos de una partida preguardada y los pinta en nuesto juego, además se ha añadido una pantalla de loading hasta que este juego que traemos con fetch haya terminado de cargar.
 
+## Paso 7
 
+Por último, se han añadio con react-bootstrap estilos al botón de resetear el juego y al header que ahora es un componente llamado card

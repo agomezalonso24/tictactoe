@@ -1,4 +1,5 @@
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css'
 import { useState } from 'react';
 import { useEffect } from 'react';
 import Header from './Header';
@@ -37,7 +38,7 @@ function App() {
   function appClick(rowNumber, colNumber){
     console.log("CLICK en " + rowNumber + "," + colNumber);
     let valuesCopy = JSON.parse(JSON.stringify(values));
-    let newMove = turn===PLAYERX ? "X":"0";
+    let newMove = turn===PLAYERX ? "X":"O";
     valuesCopy[rowNumber][colNumber]= newMove;
     setTurn(turn===PLAYERX ? PLAYER0:PLAYERX);
     setMoves(moves=> moves+1);
