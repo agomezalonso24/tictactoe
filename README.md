@@ -27,3 +27,9 @@ En el paso 4 hemos añadido el flujo de eventos, en el que al hacer click en squ
 ## Paso 5
 
 Hemos añadido un botón de rest para el juego. Además hemos que una casilla clickada no pueda volver a serlo y que se vea este cambio con el cursor
+
+## Paso 6
+
+En el paso 6 hemos creado la función fetch que trae los datos de una partida preguardada y los pinta en nuesto juego, además se ha añadido una pantalla de loading hasta que este juego que traemos con fetch haya terminado de cargar.
+
+
