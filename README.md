@@ -35,3 +35,11 @@ En el paso 6 hemos creado la función fetch que trae los datos de una partida pr
 ## Paso 7
 
 Por último, se han añadio con react-bootstrap estilos al botón de resetear el juego y al header que ahora es un componente llamado card
+
+## Paso 8
+
+He añadido, para probar, aunque no esté incluido en los vídeos las siguientes modificaciones:
+
+- Componente spinner en vez de el texto loading hasta que carga la página.
+- Nueva función auxiliar checkWin, prop win y componente WinText, todo para conseguir que el juego funcione y te diga cuando un jugador ha ganado.
+- Botón de Skip Turn con el que se puede saltar el turno de un jugador
